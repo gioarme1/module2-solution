@@ -4,7 +4,14 @@ h1 {text-align: center ; color: blue}
 .box2 {text-align: right; border: solid 1px black; background-color: aqua}
 .box3 {text-align: right; border: solid 1px black; background-color: darksalmon}
 
-.box {padding: 20px;
+p {
+      top: -17px;
+      right: 0;
+      position: absolute;
+}
+.box {
+      position:relative;
+      padding: 20px;
       border: solid 1px black;
       margin: 20px;
       height: auto;
